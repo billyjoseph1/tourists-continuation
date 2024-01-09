@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<body style=background:url("gp.jpg") ;></body>
+    <title>GPS</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+	<h1>GET DIRECTIONS </h1>
+    <h1>Serena Hotel </h1>
+	<p>Click the button to get directions to the serena hotel:</p>
+	
+	<input type="button" target= "_blank" class="btn" style="color:blue" onclick="getDirections()"value="DIRECTION"/>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+
+	
+    <a href="hotel.html"><button type="button" class="btn" style="color:blue">BACK</button></a>
+
+	<p id="navigate"></p>
+
+	<script>
+		function getDirections() {
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(showDirections);
+			} else {
+				alert("Geolocation is not supported by this browser.");
+			}
+		}
+
+		function showDirections(position) {
+			var latitude = position.coords.latitude;
+			var longitude = position.coords.longitude;
+			var url = "https://www.google.com/maps/dir/?api=1&destination= serena+hotel+Maasai+Mara+National+Reserve&destination_place_id=ChIJn6lyR9XfXRgRlSxlJP3FLKw&travelmode=driving&origin=" + latitude + "," + longitude;
+			window.location.href = url;
+		}
+	</script>
+</body>
+</html>

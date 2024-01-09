@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body style=background:url("bed.jpg");>
+        <fieldset>
+            <h1> TOURIST CIRCUITS AND BOOKING PLATFORM</h1>
+            </fieldset><br><br>
+
+
+
+<h1>SERENA HOTEL</h1>  
+    <input type="button" target= "_blank" class="btn" style="color:blue" onclick="window.location.href='hotel.html';"value="BACK"/>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="button" target= "_blank" class="btn" style="color:blue" onclick="window.location.href='gps.html';"value="DIRECTION"/>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+    <input type="button" target= "_blank" class="btn" style="color:blue" onclick="window.location.href='fullboard.html';"value="FULLBOARD"/>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+    <br><br>
+    
+
+    <Marquee behavior="scroll" style="color:chartreuse" direction="left" scrollamount="12"><h1>Welcome To Our 24 Hour Services Hotel</h1></Marquee>  
+    <br>
+    <fieldset>
+    <P>We provide supper for our tourists no matter the number and your meal choice as long as its within the menu <br> Ksh25,000 per night for one room<br><br></P>
+    </fieldset><br><br>
+    
+<form action="book.php" method="POST" autocomplete="on">
+    <fieldset>
+    <h1> booking of accormodation</h1>
+    <label for="ppl">NUMBER OF PERSONS:</label>
+    <input type="number" id="ppl" name="people" >
+    <br><br>
+    <label for="room">NUMBER OF ROOMS:</label>
+    <input type="number" id="room" name="rooms" >
+    <br><br>
+    <label for="dti">CHECK IN DATE:</label>
+    <input type="datetime-local" id="dti" name="datei">
+    <br><br>
+    <label for="dto">CHECK OUT DATE:</label>
+    <input type="datetime-local" id="dto" name="dateo">
+    <br><br>
+    <input type="button" target= "_blank" class="btn" style="color:blue" onclick="window.location.href='PAYMENT.html';"value="PAYMENT"/>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+    <br><br>
+	<input type="submit" class="btn" name="submit" value="Submit">
+    <input type="button" target= "_blank" class="btn" style="color:blue" onclick="window.location.href='hotel.html';"value="BACK"/>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <br><br>
+    </fieldset>
+</form>

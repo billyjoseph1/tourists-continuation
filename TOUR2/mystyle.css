@@ -1,0 +1,104 @@
+*{
+	color: blue;
+	text-decoration: lightblue;
+	opacity: 1.0;
+	text-align: center;
+	text-size-adjust: 10px;
+}
+
+h1{
+	text-align: center;
+	color: green;
+}
+.btn{
+	float: right(-50%); 
+	margin-left: 10px;
+	margin-top: 0%;
+	border: none;
+	background-color: chartreuse;
+	color:blue ;
+	padding: 15px;
+	border-radius: 10px;
+	position: center;
+}
+fieldset{
+        text-align: center;
+        background-color: transparent;
+        opacity: 10;
+        margin: auto;
+           }
+
+
+
+
+
+
+
+button{
+        border-radius: 30px;
+       background-color: chartreuse;}
+      /* body{
+        background-image:  background-image: linear-gradient(
+            to right bottom,
+            rgba(126, 213, 111, 0.8),
+            rgba(40, 180, 131, 0.8)),url(hotel.jpg);
+        background-size: cover;
+        
+       }*/
+       body{
+        background-image:  linear-gradient(
+            to right bottom,
+            rgba(126, 213, 111, 0.8),
+            rgba(40, 180, 131, 0.8)),url(hotel.jpg);
+        background-size: cover;
+       }
+       .accom{
+        float: right;
+        width: 205px;
+        margin-right: 400px;
+        height: 265px;
+   }
+   .book{
+    margin-top:135px;
+   }
+    
+        .menu{
+       margin-left: 400px;
+            width: 205px;
+            float: left;
+            padding-bottom: 10px;
+            height: 265px;
+       }
+      
+    
+h1{ 
+	color:chartreuse;
+	text-align: center;
+}
+
+a{
+	
+	background-color: greenyellow;
+}
+*{color: blue;
+	text-decoration: lightblue;
+	text-align: center;
+	text-size-adjust: 10px;
+	}
+	.b{
+float: right(-50%);
+margin-top: 0%;
+background-color: chartreuse;
+color: blue;
+border-radius: 50px;
+position: center;
+}
+h1{
+    font-size: 30px;
+    color:greenyellow;
+    }
+   
+    button{
+        border-radius: 30px;
+    }
+    
